@@ -1,0 +1,3 @@
+rm -rf target && sbt "jmh:compile" && sbt "jmh:run"
+
+# Make sure scala file is named the same as class to benchmark
